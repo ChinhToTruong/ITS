@@ -51,8 +51,12 @@
         row.appendChild(taoLucCell);
   
         var thaoTacCell = document.createElement("td");
-        thaoTacCell.textContent = "Các thao tác";
+        var link = document.createElement("a");
+        link.href = "#"; // Thay đổi URL tùy ý
+        link.textContent = "Xoa";
+        thaoTacCell.appendChild(link);
         row.appendChild(thaoTacCell);
+
   
         dataContainer.appendChild(row);
       }
