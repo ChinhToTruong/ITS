@@ -1,0 +1,40 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100;
+}
+
+
+.custom-input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.bg-main-color{
+    background-color: #f2edf3;
+}
+
+.btn-main-color{
+    background-color: #b66dff;
+}
+
+.btn:hover {
+    background-color: #b66dff;
+}
+
+
+.text-max-width{
+    width: 100px;
+}
+
+.fs-8{
+    font-size: 12px;
+}
+
+.custom-modal{
+    top:-10px;
+    right: -105px;
+    width: 70%;
+}
